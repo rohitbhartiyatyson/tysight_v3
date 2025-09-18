@@ -1,0 +1,11 @@
+{
+  "branch": "openhands-workspace-awbbdbp5",
+  "repo_head": "386658b3cdf5930971a950cc8620e183059b99ae",
+  "pr_url": "none",
+  "ci": {
+    "smoke": "unknown",
+    "e2e": "unknown"
+  },
+  "default_base": "main",
+  "updated_at": "2025-09-18T04:44:29.725735Z"
+}
