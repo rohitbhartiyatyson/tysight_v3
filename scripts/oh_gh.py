@@ -212,7 +212,7 @@ def main():
     p_merge.add_argument("number")
 
     p_runs = sub.add_parser("runs.list_by_head_sha")
-    p_runs.add_argument("head_sha", required=True)
+    p_runs.add_argument("head_sha")
 
     p_jobs = sub.add_parser("runs.list_jobs")
     p_jobs.add_argument("run_id", required=True)
