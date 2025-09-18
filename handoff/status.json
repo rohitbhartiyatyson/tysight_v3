@@ -1,0 +1,11 @@
+{
+  "branch": "feat/add-microagent-tysight-1",
+  "repo_head": "8a73ab6812cc0c0f4c992f0bd588c91a45c4188b",
+  "pr_url": "https://github.com/rohitbhartiyatyson/tysight_v3/pull/1",
+  "ci": {
+    "smoke": "unknown",
+    "e2e": "unknown"
+  },
+  "default_base": "main",
+  "updated_at": "2025-09-18T04:48:28.553989Z"
+}
