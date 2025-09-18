@@ -215,7 +215,7 @@ def main():
     p_runs.add_argument("head_sha")
 
     p_jobs = sub.add_parser("runs.list_jobs")
-    p_jobs.add_argument("run_id", required=True)
+    p_jobs.add_argument("run_id")
 
     parser.add_argument("value", nargs="?")
     args = parser.parse_args()
