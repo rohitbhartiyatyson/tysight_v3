@@ -209,7 +209,7 @@ def main():
     p_create.add_argument("--body", required=True)
 
     p_merge = sub.add_parser("pr.squash_merge")
-    p_merge.add_argument("number", required=True)
+    p_merge.add_argument("number")
 
     p_runs = sub.add_parser("runs.list_by_head_sha")
     p_runs.add_argument("head_sha", required=True)
