@@ -51,7 +51,8 @@ def gh_headers():
 def write_run(name, data):
     os.makedirs("runs", exist_ok=True)
     ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-    fname = f"runs/{ts}_{name}.json"
+    safe_name = name.replace("/", "_")
+    fname = f"runs/{ts}_{safe_name}.json"
     with open(fname, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
     return fname
